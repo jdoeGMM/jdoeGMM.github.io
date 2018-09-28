@@ -25,6 +25,31 @@
     <title>Quality Medication Reports from Grade My Meds</title>
     <meta name="description" content="Get practical and useful reports about the effectiveness, risks, and value of your medications from GradeMyMeds.com">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
+
+    <!-- Global site tag (gtag.js) - Google Ads: 939683863 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-939683863"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-939683863');
+    </script>
+    <!-- end Global site tag -->
+    <!-- Event snippet for Form Submissions conversion page-->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-939683863/KiDYCLzKlooBEJfgicAD',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
   </head>
   <body>
     <div class="container-fluid hero">
@@ -136,7 +161,7 @@
               <!-- Dynamic element will be cloned here -->
               <!-- You can call clone function once if you want it to show it a first element-->
             </div>
-            <button type="submit" class="btn btn-primary form-button">Submit</button>
+            <button onclick="return gtag_report_conversion('https://grademymeds.com/')" type="submit" class="btn btn-primary form-button">Submit</button>
           </form>
           <span class="add-one">Add more medications</span>
         </div>
