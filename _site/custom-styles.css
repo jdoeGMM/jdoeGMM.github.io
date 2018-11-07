@@ -35,6 +35,12 @@ p{
   font-family:'PT Serif', serif;
 }
 
+ul{
+    font-size:16px;
+    font-family:'PT Serif', serif;
+  }
+}
+
 button{
   color:#ffffff;
   background-color:#4DB3E9;
@@ -112,12 +118,45 @@ button{
   font-weight:bold;
 }
 
+.pricing-module{
+    background-color:#ECECEC;
+    padding:30px 20px 30px 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:5px;
+    text-align:center;
+}
+
+.pricing-module ul{
+  text-align:left;
+}
+
+.price{
+  color:#4DB3E9;
+  font-size:36px;
+}
+
+.pricing-button{
+  border:0px;
+  padding:10px 30px 10px 30px;
+  margin-bottom:30px;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+}
+
+.enterprise{
+  background-color:#ECECEC;
+  padding:30px 20px 10px 20px;
+  margin-top:20px;
+  margin-bottom:0px;
+  border-radius:5px;
+  text-align:center;
+}
 
 .form-div{
   border:2px #2B73B3 solid;
   border-radius:5px;
   padding:40px;
-
 }
 
 .add-one{
@@ -147,12 +186,15 @@ button{
 }
 
 .disclaimer{
+  margin-top:80px;
   margin-bottom:80px;
 }
 
 .footer{
   background-color:#2B73B3;
   color:#ffffff;
+  padding:0px;
+  margin:0px;
 }
 
 .footer p{
