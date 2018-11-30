@@ -37,6 +37,10 @@
     </script>-->
     <!-- end Global site tag -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MmVmNjcyYmQtZWYzYi00ZDZkLWE1MjItNjkyNjg3MDMwZWZjNjM2NzkyMTMwMDg3MjU0MTMx" id="snipcart"></script>
+    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+
   </head>
   <body>
     <div class="container-fluid hero">
@@ -129,14 +133,19 @@
             <h2>Free</h2>
             <p>Overall grade and alert list</p>
             <p class="price">$0.00</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BH39Z5BGEA2DU">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-            <a role="button" class="btn btn-primary pricing-button" href="/medication-form.html" >Get Your Report</a>
+              <button
+                class="snipcart-add-item"
+                data-item-id="01"
+                data-item-name="Free"
+                data-item-price="0.50"
+                data-item-weight="0"
+                data-item-url="https://grademymeds.com"
+                data-item-description="Free version"
+                data-item-custom1-name="Please enter all your medications here:"
+                data-item-custom1-type="textarea">
+                Buy Now
+              </button>
+            <!--<a role="button" class="btn btn-primary pricing-button" href="/medication-form.html" >Get Your Report</a>-->
             <ul>
               <li>Overall combined grade for all your medications</li>
               <div style="opacity:.5">
@@ -159,14 +168,18 @@
             <h2>Report Card</h2>
             <p>Full personal report</p>
             <p class="price">$39.95</p>
-            <!--Paypal button-->
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="pricing-button">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="TKJDE86TJV3XG">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-
+            <button
+              class="snipcart-add-item"
+              data-item-id="02"
+              data-item-name="Report Card"
+              data-item-price="39.95"
+              data-item-weight="0"
+              data-item-url="https://grademymeds.com"
+              data-item-description="Single report card"
+              data-item-custom1-name="Please enter all your medications here:"
+              data-item-custom1-type="textarea">
+              Buy Now
+            </button>
             <!--<a role="button" class="btn btn-primary pricing-button" href="#" >Get Your Report</a>-->
             <ul>
               <li>Overall combined grade for all your medications</li>
@@ -188,13 +201,18 @@
             <h2>Subscribe</h2>
             <p>Unlimited Personal Reports</p>
             <p class="price">$99.95/year</p>
-
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="pricing-button">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="C7GT83A4HHEUS">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
+            <button
+              class="snipcart-add-item"
+              data-item-id="03"
+              data-item-name="Subscription Report Card"
+              data-item-price="99.95"
+              data-item-weight="0"
+              data-item-url="https://grademymeds.com"
+              data-item-description="Subscription report card"
+              data-item-custom1-name="Please enter all your medications here:"
+              data-item-custom1-type="textarea">
+              Buy Now
+            </button>
 
             <!--<a role="button" class="btn btn-primary pricing-button" href="#" >Get Your Report</a>-->
             <ul>
