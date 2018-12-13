@@ -41,7 +41,7 @@ ul{
   }
 }
 
-button{
+button, {
   color:#ffffff;
   background-color:#4DB3E9;
   font-family:'Poppins', sans-serif;
@@ -307,3 +307,17 @@ button{
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
+
+/*
+Overrides for Snipcart*/
+.snipcart-add-item{
+  color:#ffffff;
+  background-color:#4DB3E9;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  margin-top:10px;
+  padding:10px 30px 10px 30px;;
+  border-radius:5px;
+  border:0px;
+  margin:10px 0px 20px 0px;
+}
