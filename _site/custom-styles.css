@@ -321,3 +321,16 @@ Overrides for Snipcart*/
   border:0px;
   margin:10px 0px 20px 0px;
 }
+
+.snip-table__cell--center{
+  display:none;
+}
+
+.snip-layout .snip-form__label{
+  text-transform:none;
+}
+
+.snipcart-customfield-element textarea{
+  width: 90%;
+  min-height: 100px;
+}
